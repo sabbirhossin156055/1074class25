@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&family=Rubik:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+
+  font-family: "Rubik", sans-serif;
+}
+
+/* pricing area start  */
+.pricing_area {
+  background: #f6f9fc;
+}
+.pricing-heading h4 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #3763eb;
+}
+.pricing-heading h1 {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  font-size: 43px;
+  position: relative;
+}
+.pricing-heading h1::after {
+  content: "";
+  width: 10%;
+  height: 4px;
+  background: #3763eb;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 11px;
+  left: 223px;
+}
+.pricing-heading p {
+  color: #646464;
+}
+.pricing-div {
+  border: none;
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  padding: 50px 90px;
+  border-radius: 7px;
+  transition: 0.4s;
+}
+.pricing-div h4 {
+  font-size: 22px;
+  font-weight: 500;
+  padding: 20px 0;
+}
+.pricing-div h1 {
+  font-size: 50px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  position: relative;
+}
+.pricing-div h1::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  bottom: 13px;
+  left: 0;
+}
+.pricing-div p {
+  color: #6a6969;
+  font-size: 18px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  transition: 0.4s;
+}
+.pricing-div a {
+  width: 73%;
+  margin: auto;
+  margin-bottom: 10px;
+  transition: 0.4s;
+}
+/* hover part  */
+.pricing-div:hover {
+  background: #3763eb;
+  color: white;
+}
+.pricing-div:hover a {
+  background: #fff;
+  color: #3763eb;
+  border: 1px solid #fff;
+}
+.pricing-div:hover p {
+  color: white;
+}
+.similar-btns {
+  position: relative;
+  z-index: 12;
+  background: #000;
+}
+.similar-btns::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #3763eb;
+  transition: 0.4s;
+  z-index: -1;
+}
+.similar-btns:hover::after {
+  width: 100%;
+
+}
+.similar-btns:hover{
+  color: white  !important;
+}
+/* pricing area End */
+
+/* cover start  */
+.cover {
+  background-image: url("https://i.ibb.co/7ST0CTV/free-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 200px 0;
+  position: relative;
+}
+.all-photo-section {
+  background: #f6f9fc;
+  padding: 90px 0;
+}
+.cover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(60, 107, 250, 0.7);
+}
+.photo-text-inner {
+  z-index: 1;
+}
+.photo-text-inner h4 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.photo-text-inner h1 {
+  position: relative;
+  padding-bottom: 50px;
+}
+.photo-text-inner h1::after {
+  content: "";
+  position: absolute;
+  bottom: 20px;
+  left: 261px;
+  background: #fff;
+  width: 14%;
+  height: 3px;
+}
+.photo-text-inner p {
+  font-size: 19px;
+}
+.btns-photo {
+  margin-top: 40px;
+  padding: 15px 36px;
+  position: relative;
+  z-index: 12;
+}
+.btns-photo:hover{
+  color: white !important;
+}
+.btns-photo::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: #3763eb;
+  border-radius: 25px;
+  transition: 0.4s;
+  z-index: -1;
+ 
+}
+.btns-photo:hover::after {
+  width: 100%;
+ 
+}
+
+/* cover end */
+
+/* footer start  */
+footer {
+  background: #f6f9fc;
+}
+footer .card {
+  border: none;
+  background: #3763eb;
+  padding: 40px 40px;
+}
+footer .card p {
+  padding-right: 100px;
+  padding-right: 173px;
+}
+.fotter-right h1 {
+  font-size: 30px;
+  padding-right: 150px;
+  padding-bottom: 27px;
+}
+.fotter-right .footer-btnns {
+  padding: 10px 33px;
+  border: 1px solid #3763eb;
+}
+.fotter-right .footer-btnns:hover {
+  color: white;
+}
+
+/* footer end */
